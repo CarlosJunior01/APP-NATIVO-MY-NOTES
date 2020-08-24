@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemSalvar1"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:orderInCategory="100"
+        android:title="Salvar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemConfiguracao1"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:orderInCategory="100"
+        android:title="Configurações"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemSalvar2"
+        android:icon="@android:drawable/btn_plus"
+        android:orderInCategory="100"
+        android:title="Salvar" />
+
+    <item
+        android:id="@+id/itemEditar"
+        android:title="Editar"
+        android:orderInCategory="200" />
+
+    <item
+        android:id="@+id/itemConfiguracao2"
+        android:orderInCategory="300"
+        android:title="Configurações"/>
+</menu>
